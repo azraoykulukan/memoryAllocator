@@ -1,0 +1,12 @@
+Yazmış olduğumuz programı 128 512 gibi farklı inputlarla çalıştırarak, bellek tahsisi ve serbest bırakma işlemlerinin sonucunda hangi stratejinin daha iyi veya daha kötü performans gösterdiğini belirledik. Daha az harcanan bellek alanının olduğu ve daha az  (external fragmentation) yaşanan inputların tercih edilmesi gerektiği sonucuna vardık.
+
+Özetlemek gerekirse;
+First Fit Strategy:
+Bellek blokları ilk uygun yere yerleştirilir, dolayısıyla işletim sistemi bellek bölgesini hızlıca doldurabilir ama özellikle küçük boşlukların büyük bloklarla doldurulması durumunda (büyük blok küçük boşluğu dolduracaksa), daha fazla fragmentasyon olabilir.
+
+Best Fit Strategy:
+Bellek blokları en uygun yerlere yerleştirilir, böylece daha az boşluk kalır ve fragmentasyon azalır ama en uygun boşluk arama işlemi daha fazla zaman alabilir, bu da işlemci kullanımını artırabilir.
+
+Worst Fit Strategy:
+Büyük blokları doldurmak için kullanılır, bu da büyük boşlukların hızla doldurulmasını sağlar ama diğer stratejilere göre daha fazla fragmentasyona neden olabilir çünkü büyük boşluklar küçük bloklarla doldurulduğunda parçalanma artabilir.
+
