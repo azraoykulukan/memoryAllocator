@@ -1,7 +1,4 @@
-/* PROJE 2-Team EEA
-   22120205059-Azra Öykü Ulukan
-   22120205057-Rabia Ece Sert
-   22120205045-Eren Akkoç */
+/*22120205059-Azra Öykü Ulukan*/
 
 #include "mymalloc.h"
 #include <stdio.h>
